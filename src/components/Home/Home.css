@@ -1,0 +1,80 @@
+.Home {
+  padding: 10% 0;
+}
+.full {
+  background-image: linear-gradient(to right bottom, #ece9e6, #ffffff);
+}
+.main-text {
+  display: block;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 120%;
+  width: 55%;
+  /* or 88px */
+
+  display: flex;
+  align-items: center;
+
+  /* 2 */
+
+  color: #212353;
+  margin-bottom: 30px;
+}
+.javascript {
+  display: inline;
+  font-size: 35px;
+}
+.paragraph {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  width: 50%;
+
+  color: #4b5d68;
+}
+.col-img {
+  position: absolute;
+  width: 600px;
+  height: 468px;
+  left: 700px;
+  top: 80px;
+  background-image: url(../../images/Home-img.png);
+  background-size: 100% 100%;
+}
+.btn {
+  padding: 10px 20px;
+  background: #9c69e2;
+  border-radius: 50px;
+  color: white;
+  font-weight: bold;
+  -webkit-box-shadow: 0px 4px 17px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 4px 17px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 4px 17px -5px rgba(0, 0, 0, 0.75);
+  margin-right: 13px;
+}
+.btn:hover {
+  color: #181024;
+}
+.btn-2 {
+  margin-left: 30px;
+  background: none !important;
+  border: 3px solid #9c69e2;
+  color: black;
+}
+
+@font-face {
+  font-family: Stayclassy;
+  src: url("../../Fonts/NoTime.ttf") format("opentype");
+}
+
+.logo {
+  font-family: Stayclassy;
+  font-weight: 300;
+  font-size: 30px;
+  position: relative;
+  bottom: 100px;
+}
